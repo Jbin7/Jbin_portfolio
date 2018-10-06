@@ -1,33 +1,14 @@
 <template>
     <div>
+
+        <div class="area-title-wrapper">
+            <span class="area-title">PROJECT DETAIL</span>&nbsp;&nbsp;
+        </div>
+
         <div>
-            <v-container grid-list-md text-xs-center>
-
-                <v-layout row wrap>
-                    <v-flex xs12>
-
-                        <div style="background-color: white; padding:10px; border: solid 1px #E7E7E7">
-                            <v-layout row wrap>
-
-                                <v-flex xs12>
-                                    <div class="about-title">
-                                        Project Detail
-                                    </div>
-
-                                    <div v-for="i in selProject.imgMaxCnt">
-                                        <img :src="'/portfolio/img/projects/'+selProject.path+'/'+i+'.png'" style="width: 100%; max-width: 800px;">
-                                    </div>
-                                </v-flex>
-
-
-                            </v-layout>
-                        </div>
-
-                    </v-flex>
-                </v-layout>
-
-
-            </v-container>
+            <div v-for="i in selProject.imgMaxCnt">
+                <img class="project-img" :src="'/portfolio/img/projects/'+selProject.path+'/'+i+'.png'">
+            </div>
         </div>
     </div>
 </template>
@@ -61,15 +42,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    .about-title{
-        text-align: left; border-left:5px solid #1565C0; padding-left:10px; margin-bottom: 10px;
-    }
 
-    .about-title-sub{
-        color:gray; font-size: 14pt;
-    }
-
-    .about-area{
-        text-align: left; padding-left:10px;
-    }
 </style>

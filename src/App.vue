@@ -21,11 +21,42 @@
   .bold       { font-weight: 700 }
   .bolder     { font-weight: 900 }
 
+
   @media screen and (min-width: 300px) and (max-width: 500px) {
 
+    body {width: 95%;}
+
+    .nav {
+      font-size: 10pt;
+      text-align: center;
+      width: 100%;
+      border-bottom: 1px dashed #BDBDBD;
+      position: fixed;
+      top:0;
+      background-color: white;
+      user-select: none;
+    }
+
+    .nav-item {
+      display: inline-block;
+      padding: 10px 5px 10px 5px;
+      color:#5D5D5D;
+    }
+
+    .nav-item a {
+      color:#5D5D5D;
+      text-decoration: none;
+    }
+
+    .nav-item :hover{
+      display: inline-block;
+      color:black;
+      font-weight: 500;
+    }
+
     .container {
-      margin-left:1%;
-      margin-right:1%;
+      margin-left:0%;
+      margin-right:0%;
     }
 
     .project-wrapper{
@@ -35,21 +66,63 @@
       cursor: pointer;
     }
 
+    .project-img {
+      width: 100%;
+    }
+
     .main-wrapper {
       text-align: center; width: 100%; height: 400px;
     }
 
     .main-title-wrapper {
+      margin-top: 30%;
       padding: 30%;
     }
 
     .about-divide{
-      width: 95%; display: inline-block; text-align: center; vertical-align: top; padding: 10px;
+      width: 95%; display: inline-block; text-align: center; vertical-align: top;
+    }
+
+    .stack-wrapper {
+      display: inline-block; width:100%; text-align: left; font-size:12pt; vertical-align: top;
     }
 
   }
 
   @media screen and (min-width: 500px) {
+
+    .nav {
+      font-size: 10pt;
+      text-align: center;
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      border-bottom: 1px dashed #BDBDBD;
+      position: fixed;
+      top:0;
+      background-color: white;
+      user-select: none;
+    }
+
+    .nav-item {
+      display: inline-block;
+      padding: 5px;
+      color:#5D5D5D;
+    }
+
+    .nav-item a {
+      color:#5D5D5D;
+      text-decoration: none;
+    }
+
+    .nav-item:hover{
+      display: inline-block;
+      padding: 5px;
+      color:black;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
 
     .container {
       margin-left:20%;
@@ -62,31 +135,30 @@
       cursor: pointer;
     }
 
+    .project-img {
+      max-width: 800px;
+    }
+
     .main-wrapper {
       text-align: center; width: 100%; height: 600px;
     }
 
     .main-title-wrapper {
-      padding: 30%;
+      padding: 30% 0% 30% 0%;
     }
 
     .about-divide{
-      width: 48%; display: inline-block; text-align: center; text-align: center; vertical-align: top; padding: 10px;
+      width: 45%; display: inline-block; text-align: center; text-align: center; vertical-align: top; padding: 10px;
+    }
+
+    .stack-wrapper {
+      display: inline-block; width:33%; text-align: left; font-size:12pt; vertical-align: top; margin-bottom: 50px;
     }
 
   }
 
-  .nav {
-    font-size: 10pt;
-    text-align: center;
-    border-bottom: 1px dashed #BDBDBD;
-  }
 
-  .nav-item {
-    display: inline-block;
-    padding: 5px;
-    color:#5D5D5D;
-  }
+
 
   .solid-line {
     width: 100%;
@@ -109,6 +181,18 @@
 
   .area-title{
     font-size:20pt; color:#747474; font-weight: 700;
+  }
+
+  .area-subtitle {
+    font-size:11pt; color: #747474
+  }
+
+  .stack-title {
+    font-size:14pt; font-weight: 600; color:#747474
+  }
+
+  .stack-item {
+    font-size:10pt;
   }
 
 

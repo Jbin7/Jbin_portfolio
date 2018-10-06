@@ -1,14 +1,16 @@
 <template>
   <div>
-    <div class="container">
 
-      <div class="nav">
-        <div class="nav-item">ABOUT</div>
-        <div class="nav-item">SKILL</div>
-        <div class="nav-item">PROJECT</div>
-        <div class="nav-item">BLOG</div>
-        <div class="nav-item">Github</div>
-      </div>
+
+    <div class="nav">
+      <div class="nav-item"><a href="#about">About</a></div>
+      <div class="nav-item"><a href="#stack">Stack</a></div>
+      <div class="nav-item"><a href="#project">Project</a></div>
+      <div class="nav-item"><a href="http://jhonnywest.tistory.com/" target="_blank">Blog</a></div>
+      <div class="nav-item"><a href="https://github.com/jbin7" target="_blank">Github</a></div>
+    </div>
+
+    <div class="container">
 
       <div class="main-wrapper">
         <div class="main-title-wrapper">
@@ -17,19 +19,22 @@
         </div>
       </div>
 
-      <div class="solid-line"></div>
+      <div id="about" class="solid-line"></div>
 
       <About></About>
 
-      <div class="solid-line"></div>
+      <div id="stack" class="solid-line"></div>
+
+      <Stack></Stack>
+
+      <div id="project" class="solid-line"></div>
 
       <Project></Project>
 
       <div class="dashed-line"></div>
 
-
-
     </div>
+
   </div>
 </template>
 
@@ -38,6 +43,7 @@
         name: '',
         components:{
             'About': ()=>import('../components/About'),
+            'Stack': ()=>import ('../components/Stack'),
             'Project': ()=>import('../components/Project')
         },
         data(){

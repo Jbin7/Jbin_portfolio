@@ -1,8 +1,16 @@
 export default {
     projectList:[
         {
+            id: 7,
+            name: '인터랙티브 프로필',
+            detail: '',
+            year: '2018',
+            path: 'interactive_profile',
+            imgMaxCnt:1
+        },
+        {
             id: 6,
-            name: '청주 정식품 베지밀 FSP',
+            name: '정식품 베지밀 FSP',
             detail: '',
             year: '2018',
             path: 'nongshim_chungs',
@@ -18,7 +26,7 @@ export default {
         },
         {
             id: 4,
-            name: '선진사료 필리핀 블라칸 OEE',
+            name: '선진 필리핀 블라칸 OEE',
             detail: '',
             year: '2017',
             path: 'sunjin_oee_bulacan',
@@ -26,7 +34,7 @@ export default {
         },
         {
             id: 3,
-            name: '선진사료 OEE 통합뷰',
+            name: '선진 OEE 통합뷰',
             detail: '',
             year: '2017',
             path: 'sunjin_oee_totalview',
@@ -34,19 +42,19 @@ export default {
         },
         {
             id: 2,
-            name: '선진사료 TMS 키오스크',
-            detail: '',
-            year: '2017',
-            path: 'sunjin_tms_kiosk',
-            imgMaxCnt:7
-        },
-        {
-            id: 1,
-            name: '선진사료 TMS 모바일',
+            name: '선진 TMS 모바일',
             detail: '',
             year: '2017',
             path: 'sunjin_tms_mobile',
             imgMaxCnt:6
+        },
+        {
+            id: 1,
+            name: '선진 TMS 키오스크',
+            detail: '',
+            year: '2017',
+            path: 'sunjin_tms_kiosk',
+            imgMaxCnt:7
         },
     ]
 }

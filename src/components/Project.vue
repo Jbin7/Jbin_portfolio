@@ -1,7 +1,8 @@
 <template>
     <div>
         <div class="area-title-wrapper">
-            <span class="area-title">프로젝트</span>&nbsp;&nbsp;
+            <span class="area-title">PROJECT</span>&nbsp;&nbsp;
+            <div class="area-subtitle">참여 프로젝트 & 개인 프로젝트</div>
         </div>
 
         <div class="about-area">
