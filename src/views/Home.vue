@@ -6,6 +6,7 @@
       <div class="nav-item"><a href="#about">About</a></div>
       <div class="nav-item"><a href="#stack">Stack</a></div>
       <div class="nav-item"><a href="#project">Project</a></div>
+      <div class="nav-item"><a href="https://jbin7.github.io/profile" target="_blank">Profile</a></div>
       <div class="nav-item"><a href="http://jhonnywest.tistory.com/" target="_blank">Blog</a></div>
       <div class="nav-item"><a href="https://github.com/jbin7" target="_blank">Github</a></div>
     </div>

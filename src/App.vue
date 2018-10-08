@@ -70,6 +70,14 @@
       width: 100%;
     }
 
+    .project-img-selector-wrapper {
+      display: inline-block; width: 10%; padding: 10px;
+    }
+
+    .project-img-selector {
+      width: 100%;
+    }
+
     .main-wrapper {
       text-align: center; width: 100%; height: 400px;
     }
@@ -137,6 +145,14 @@
 
     .project-img {
       max-width: 800px;
+    }
+
+    .project-img-selector-wrapper {
+      display: inline-block; width: 12%; padding: 10px; cursor:pointer;
+    }
+
+    .project-img-selector {
+      width: 100%;
     }
 
     .main-wrapper {

@@ -18,10 +18,13 @@
                 </div>
                 <div style="margin-top: 30px;">
                     <div style="display: inline-block; margin: 10px; cursor: pointer">
-                        <a href="https://github.com/Jbin7" target="_blank"><img src="/portfolio/img/github.png" style="width: 50px;"></a>
+                        <a href="https://jbin7.github.io/profile" target="_blank"><img src="/portfolio/img/profile_ico.png" style="width: 40px;"></a>
                     </div>
                     <div style="display: inline-block; margin: 10px; cursor: pointer">
-                        <a href="http://jhonnywest.tistory.com/" target="_blank"><img src="/portfolio/img/tistory.png" style="width: 50px;"></a>
+                        <a href="https://github.com/Jbin7" target="_blank"><img src="/portfolio/img/github.png" style="width: 40px;"></a>
+                    </div>
+                    <div style="display: inline-block; margin: 10px; cursor: pointer">
+                        <a href="http://jhonnywest.tistory.com/" target="_blank"><img src="/portfolio/img/tistory.png" style="width: 40px;"></a>
                     </div>
                     <div style="font-size: 14pt">kakao: jbin7</div>
                 </div>
